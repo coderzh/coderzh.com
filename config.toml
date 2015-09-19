@@ -17,4 +17,4 @@ canonifyUrls = "true"
 [[params.social]]
     title = "Blog"
     icon = "book"
-    url = "http://blog.coderzh.com"
+    url = "http://blog.coderzh.com/"

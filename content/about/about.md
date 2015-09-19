@@ -8,5 +8,5 @@ title = "About Me"
 
 I am a Programmer, Blogger, Pythonista, Gopher.
 
-More details please view my [blog](http://blog.coderzh.com)
+More details please view my [blog](http://blog.coderzh.com/)
 
