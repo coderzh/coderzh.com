@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on CoderZh</title>
+    <link>http://www.coderzh.com/about/</link>
+    <description>Recent content in Abouts on CoderZh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Sep 2015 14:08:35 +0200</lastBuildDate>
+    <atom:link href="http://www.coderzh.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>http://www.coderzh.com/about/about/</link>
+      <pubDate>Sat, 19 Sep 2015 14:08:35 +0200</pubDate>
+      
+      <guid>http://www.coderzh.com/about/about/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;border-radius: 50%;width:72px;height:72px;margin:0 auto;&#34; alt=&#34;coderzh&#34; src=&#34;http://www.coderzh.com/img/coderzh.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;I am a Programmer, Blogger, Pythonista, Gopher.&lt;/p&gt;
+
+&lt;p&gt;More detail view my &lt;a href=&#34;http://blog.coderzh.com&#34;&gt;blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
