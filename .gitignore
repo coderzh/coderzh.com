@@ -1,0 +1,15 @@
+/cache
+/public
+/gh-pages
+.idea
+syncFolders*
+/branches
+/config
+/description
+/HEAD
+/hooks
+/info
+/objects
+/refs
+/index
+/logs

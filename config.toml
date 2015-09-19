@@ -1,0 +1,20 @@
+baseurl = "http://www.coderzh.com"
+languageCode = "en-us"
+title = "CoderZh"
+canonifyUrls = "true"
+
+[params]
+    description = "Welcome to my home page!"
+
+[[params.social]]
+    title = "Email"
+    icon = "envelope-o"
+    url = "mailto:pythonzh@gmail.com"
+[[params.social]]
+    title = "GitHub"
+    icon = "github"
+    url = "https://github.com/coderzh"
+[[params.social]]
+    title = "Blog"
+    icon = "book"
+    url = "http://blog.coderzh.com"
