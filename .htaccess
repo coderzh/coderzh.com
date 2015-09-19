@@ -1,7 +1,0 @@
-ErrorDocument 404 /404.html
-Header set X-frame-options SAMEORIGIN
-Header set X-XSS-Protection "1; mode=block"
-Header set X-Content-Type-Options nosniff
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^coderzh.com [NC]
-RewriteRule ^(.*)$ http://www.coderzh.com/$1 [L,R=301]
