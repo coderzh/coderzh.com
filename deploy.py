@@ -33,7 +33,7 @@ def deploy():
     if os.path.exists('public'):
         shutil.rmtree('public')
 
-    os.system('hugo -v --theme=landing-page-hugo --buildDrafts --cacheDir="./cache"')
+    os.system('hugo -v --theme=landing-page-hugo --buildDrafts')
 
     gh_pages_dir = os.path.join(current_dir, 'gh-pages')
 
