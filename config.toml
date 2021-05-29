@@ -1,4 +1,4 @@
-baseurl = "http://www.coderzh.com"
+baseurl = "https://www.coderzh.com"
 languageCode = "en-us"
 title = "CoderZh"
 canonifyUrls = "true"
@@ -17,4 +17,4 @@ canonifyUrls = "true"
 [[params.social]]
     title = "Blog"
     icon = "book"
-    url = "http://blog.coderzh.com/"
+    url = "https://blog.coderzh.com/"
