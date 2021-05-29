@@ -10,7 +10,7 @@ import subprocess
 __author__ = 'coderzh'
 
 GIT_HUB_REPO = 'git@github.com:coderzh/coderzh.com.git'
-GIT_CAFE_REPO = 'git@gitcafe.com:coderzh/coderzh.com.git'
+# GIT_CAFE_REPO = 'git@gitcafe.com:coderzh/coderzh.com.git'
 
 
 class ChDir:
@@ -40,8 +40,8 @@ def deploy():
     # step3 clone if not exists
     if not os.path.exists(gh_pages_dir):
         os.system('git clone %s gh-pages' % GIT_HUB_REPO)
-        with ChDir(gh_pages_dir):
-            os.system('git remote add gitcafe %s' % GIT_CAFE_REPO)
+        # with ChDir(gh_pages_dir):
+            # os.system('git remote add gitcafe %s' % GIT_CAFE_REPO)
 
     with ChDir(gh_pages_dir):
         # step4 clean and pull
@@ -71,7 +71,7 @@ def deploy():
         os.system('git add --all')
         os.system('git commit -a')
         os.system('git push origin gh-pages:gh-pages')
-        os.system('git push gitcafe gh-pages:gh-pages')
+        # os.system('git push gitcafe gh-pages:gh-pages')
 
 if __name__ == '__main__':
     deploy()
